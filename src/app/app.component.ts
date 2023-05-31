@@ -7,6 +7,11 @@ import { Component, OnInit } from "@angular/core";
 })
 export class AppComponent implements OnInit {
   images = [`1.jpg`, `2.jpg`, `3.jpg`];
+  headlines = [
+    `Bring engeneering to the next level`,
+    `Born to code`,
+    `Graduated at Developer Akademie`
+  ];
   currentImage = 0;
   showImage = true;
 
