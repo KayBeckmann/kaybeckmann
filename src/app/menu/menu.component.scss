@@ -4,7 +4,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: lightgreen;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,5 +13,16 @@ header {
 
   img {
     height: 70px;
+  }
+
+  a {
+    text-decoration: none;
+    color: lightgray;
+    margin-left: 32px;
+    font-weight: 500;
+
+    &:hover {
+      color: gray;
+    }
   }
 }
