@@ -5,7 +5,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: black;
+  // background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,12 +18,27 @@ header {
 
   a {
     text-decoration: none;
-    color: lightgray;
+    color: white;
     margin-left: 32px;
     font-weight: 500;
 
     &:hover {
-      color: gray;
+      color: rgba(255, 255, 255, 0.8);
     }
   }
+}
+
+.darkLinks {
+  a {
+    color: black;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+.headerDark {
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
