@@ -1,34 +1,57 @@
-# Kaybeckmann
+# Hi there, I'm Kay! 👋
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+<p align="center">
+  <em>Hobby-Webentwickler mit Ambitionen zum Quereinstieg | Linux-Poweruser | Heimserver-Bastler</em>
+</p>
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 About Me
 
-## Code scaffolding
+* 🔭 Ich arbeite gerade an einer Webplattform mit Vue3 im Frontend und ExpressJS im Backend.
+* 🌱 Ich lerne aktuell Vue3, ExpressJS und vertiefe mein Wissen in Ansible & DevOps-Themen.
+* 👯 Ich suche nach Kollaborationsmöglichkeiten für kleine bis mittlere Open Source-Projekte im Bereich Webentwicklung & Automatisierung.
+* 🤔 Ich suche Hilfe beim Einstieg in die professionelle Softwareentwicklung und freue mich über Tipps für den Quereinstieg.
+* 💬 Frag mich gerne über Linux, Heimserver-Setups, Self-Hosting, Docker oder Webentwicklung mit JavaScript.
+* 📫 So erreichst du mich: [contact@kay-beckmann.com]
+* ⚡ Fun fact: Ich nutze Linux seit über 15 Jahren – egal ob Desktop, Server oder Laptop. Windows hat bei mir Hausverbot.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Skills & Tools
 
-Run `ng build` `ng build --base-href` to build the project. The build artifacts will be stored in the `dist/` directory.
+Hier sind ein paar Technologien und Tools, mit denen ich mich regelmäßig beschäftige:
 
-## Running unit tests
+* **Sprachen:** JavaScript, HTML, CSS, Bash
+* **Frontend:** Vue3, Vite
+* **Backend:** ExpressJS, Node.js
+* **Datenbanken:** SQLite, MySQL
+* **DevOps & Automatisierung:** Docker, Ansible, QEMU/KVM
+* **Betriebssystem & Server:** Linux (Debian/Ubuntu), Heimserver (ArchLinux) mit LXC/VMs und Containern
+* **Sonstiges:** Git, Vim/Neovim, CLI-Tools, Self-Hosting
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📊 GitHub Stats
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KayBeckmann&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KayBeckmann&layout=compact&theme=radical" alt="Top Languages" />
+</p>
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🔗 Connect with me
 
-## Angular installation
+Hier findest du mich online:
 
-1. Node installieren -> Installation prüfen -> "node --version" in Terminal eingeben
-2. NPM installieren -> Installation prüfen -> "npm --version"
-3. sudo apt update && sudo apt upgrade && sudo apt install curl && curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt update && sudo apt upgrade && sudo apt install nodejs
-4. Angular installieren -> "npm install -g @angular/cli"
+* 💼 **LinkedIn:** [https://www.linkedin.com/in/kay-beckmann-71a602109/]
+* 🌐 **Website:** [https://kay-beckmann.com](https://kay-beckmann.com)
+* 📧 **E-Mail:** [deine@email.de](mailto:contact@kay-beckmann.com)
+
+---
+
+<p align="center">
+  <strong>Der Weg zum Entwickler ist kein Sprint – sondern ein verdammt spannender Marathon. Aufgeben ist keine Option!</strong>
+</p>
