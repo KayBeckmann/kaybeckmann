@@ -1,38 +1,64 @@
-# Hi there, I'm Kay! 👋
+# Kay Beckmann – IT-Dienstleistungen
 
 <p align="center">
-  <em>Hobby-Webentwickler mit Ambitionen zum Quereinstieg | Linux-Poweruser | Heimserver-Bastler</em>
+  <em>Programmierung · n8n Automation · Serververwaltung</em>
 </p>
 
 ---
 
-## 🚀 About Me
+## Über mich
 
-* 🔭 Ich arbeite gerade an einer Webplattform mit Vue3 im Frontend und ExpressJS im Backend.
-* 🌱 Ich lerne aktuell Vue3, ExpressJS und vertiefe mein Wissen in Ansible & DevOps-Themen.
-* 👯 Ich suche nach Kollaborationsmöglichkeiten für kleine bis mittlere Open Source-Projekte im Bereich Webentwicklung & Automatisierung.
-* 🤔 Ich suche Hilfe beim Einstieg in die professionelle Softwareentwicklung und freue mich über Tipps für den Quereinstieg.
-* 💬 Frag mich gerne über Linux, Heimserver-Setups, Self-Hosting, Docker oder Webentwicklung mit JavaScript.
-* 📫 So erreichst du mich: [contact@kay-beckmann.com]
-* ⚡ Fun fact: Ich nutze Linux seit über 15 Jahren – egal ob Desktop, Server oder Laptop. Windows hat bei mir Hausverbot.
+Ich bin freiberuflicher IT-Dienstleister aus Menzendorf und biete maßgeschneiderte Lösungen für kleine und mittlere Unternehmen an. Mit über 15 Jahren Linux-Erfahrung und einem breiten Stack moderner Webtechnologien helfe ich dabei, digitale Prozesse effizienter zu gestalten.
 
----
-
-## 🛠️ Skills & Tools
-
-Hier sind ein paar Technologien und Tools, mit denen ich mich regelmäßig beschäftige:
-
-* **Sprachen:** JavaScript, HTML, CSS, Bash
-* **Frontend:** Vue3, Vite
-* **Backend:** ExpressJS, Node.js
-* **Datenbanken:** SQLite, MySQL
-* **DevOps & Automatisierung:** Docker, Ansible, QEMU/KVM
-* **Betriebssystem & Server:** Linux (Debian/Ubuntu), Heimserver (ArchLinux) mit LXC/VMs und Containern
-* **Sonstiges:** Git, Vim/Neovim, CLI-Tools, Self-Hosting
+- 🖥️ **Linux-Poweruser** seit über 15 Jahren (Debian, Ubuntu, ArchLinux)
+- ⚙️ **Heimserver-Betreiber** mit LXC-Containern, VMs und Self-Hosting
+- 🤝 Offen für Open-Source-Kollaborationen im Bereich Web & Automation
+- 📫 Kontakt: [info@beckmann-md.de](mailto:info@beckmann-md.de)
 
 ---
 
-## 📊 GitHub Stats
+## Leistungen
+
+| Leistung | Beschreibung |
+|---|---|
+| **Programmierarbeiten** | Individuelle Webentwicklung, maßgeschneiderte Anwendungen, Frontend & Backend |
+| **Automation mit n8n** | Workflow-Automatisierung, API-Integrationen, Datensynchronisation |
+| **Serververwaltung** | Einrichtung, Härtung & Wartung von Linux-Servern, Docker, Ansible |
+
+---
+
+## Tech Stack
+
+**Sprachen:** JavaScript · TypeScript · HTML · CSS / SCSS · Bash
+
+**Frontend:** Vue 3 · Angular · Vite · Tailwind CSS
+
+**Backend:** Node.js · Express.js · REST APIs
+
+**DevOps & Automation:** Docker · Ansible · QEMU/KVM · LXC · n8n
+
+**Datenbanken:** SQLite · MySQL
+
+**Tools:** Git · Vim/Neovim · SSH · Linux CLI
+
+---
+
+## Dieses Repository
+
+Quellcode meiner persönlichen Homepage – gebaut mit reinem HTML, CSS und JavaScript (kein Framework).
+
+```
+index.html          # Startseite (Hero, Leistungen, Skills, Über mich, Kontakt)
+imprint.html        # Impressum
+datenschutz.html    # Datenschutzerklärung
+css/style.css       # Dark Theme, responsives Layout, Animationen
+js/main.js          # Sprachumschalter (DE/EN), Navigation, Scroll-Animationen
+src/assets/img/     # Logo und Bilder
+```
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=KayBeckmann&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
@@ -42,16 +68,14 @@ Hier sind ein paar Technologien und Tools, mit denen ich mich regelmäßig besch
 
 ---
 
-## 🔗 Connect with me
+## Kontakt
 
-Hier findest du mich online:
-
-* 💼 **LinkedIn:** [https://www.linkedin.com/in/kay-beckmann-71a602109/]
-* 🌐 **Website:** [https://kay-beckmann.com](https://kay-beckmann.com)
-* 📧 **E-Mail:** [deine@email.de](mailto:contact@kay-beckmann.com)
+- 💼 **LinkedIn:** [linkedin.com/in/kay-beckmann-71a602109](https://www.linkedin.com/in/kay-beckmann-71a602109/)
+- 🌐 **Website:** [kay-beckmann.com](https://kay-beckmann.com)
+- 📧 **E-Mail:** [info@beckmann-md.de](mailto:info@beckmann-md.de)
 
 ---
 
 <p align="center">
-  <strong>Der Weg zum Entwickler ist kein Sprint – sondern ein verdammt spannender Marathon. Aufgeben ist keine Option!</strong>
+  <em>„Linux ist nicht ein Betriebssystem – es ist eine Lebenseinstellung."</em>
 </p>
