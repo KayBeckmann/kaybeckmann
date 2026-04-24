@@ -51,6 +51,7 @@ const translations = {
     'skills.group.devops':    'DevOps & Automation',
     'skills.group.database':  'Datenbanken',
     'skills.group.tools':     'Tools',
+    'skills.group.ai':        'KI & LLMs',
 
     // About
     'about.tag':   'Über mich',
@@ -87,7 +88,7 @@ const translations = {
     'contact.form.submit':   'Nachricht senden',
 
     // Footer
-    'footer.copy':    '© 2024 Kay Beckmann. Alle Rechte vorbehalten.',
+    'footer.copy':    '© 2026 Kay Beckmann. Alle Rechte vorbehalten.',
     'footer.imprint': 'Impressum',
     'footer.privacy': 'Datenschutz',
 
@@ -139,6 +140,7 @@ const translations = {
     'skills.group.devops':    'DevOps & Automation',
     'skills.group.database':  'Databases',
     'skills.group.tools':     'Tools',
+    'skills.group.ai':        'AI & LLMs',
 
     // About
     'about.tag':   'About Me',
@@ -175,7 +177,7 @@ const translations = {
     'contact.form.submit':   'Send Message',
 
     // Footer
-    'footer.copy':    '© 2024 Kay Beckmann. All rights reserved.',
+    'footer.copy':    '© 2026 Kay Beckmann. All rights reserved.',
     'footer.imprint': 'Imprint',
     'footer.privacy': 'Privacy Policy',
 

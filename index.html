@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Professionelle IT-Dienstleistungen: Programmierung, n8n Automation und Serververwaltung." />
   <title>Kay Beckmann – IT-Dienstleistungen</title>
-  <link rel="icon" type="image/jpeg" href="src/assets/img/logo-black.jpg" />
+  <link rel="icon" type="image/svg+xml" href="src/assets/img/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="src/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -17,7 +18,8 @@
   <nav class="nav" id="nav">
     <div class="nav-container">
       <a href="#home" class="nav-logo">
-        <img src="src/assets/img/logo-white.jpg" alt="Kay Beckmann" />
+        <div class="logo-mark">KB</div>
+        <span class="logo-name">Kay Beckmann</span>
       </a>
       <div class="nav-links" id="nav-links">
         <a href="#services" data-i18n="nav.services">Leistungen</a>
@@ -150,18 +152,19 @@
 
       <div class="skills-grid">
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--red">
           <div class="skill-group-title" data-i18n="skills.group.languages">Sprachen</div>
           <div class="skill-tags">
             <span class="skill-tag tag-red">JavaScript</span>
             <span class="skill-tag tag-red">TypeScript</span>
+            <span class="skill-tag tag-red">Python</span>
             <span class="skill-tag tag-red">HTML</span>
             <span class="skill-tag tag-red">CSS / SCSS</span>
             <span class="skill-tag tag-red">Bash</span>
           </div>
         </div>
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--blue">
           <div class="skill-group-title" data-i18n="skills.group.frontend">Frontend</div>
           <div class="skill-tags">
             <span class="skill-tag tag-blue">Vue 3</span>
@@ -171,19 +174,21 @@
           </div>
         </div>
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--green">
           <div class="skill-group-title" data-i18n="skills.group.backend">Backend</div>
           <div class="skill-tags">
             <span class="skill-tag tag-green">Node.js</span>
             <span class="skill-tag tag-green">Express.js</span>
             <span class="skill-tag tag-green">REST APIs</span>
+            <span class="skill-tag tag-green">FastAPI</span>
           </div>
         </div>
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--purple">
           <div class="skill-group-title" data-i18n="skills.group.devops">DevOps &amp; Automation</div>
           <div class="skill-tags">
             <span class="skill-tag tag-purple">Docker</span>
+            <span class="skill-tag tag-purple">Proxmox</span>
             <span class="skill-tag tag-purple">Ansible</span>
             <span class="skill-tag tag-purple">QEMU / KVM</span>
             <span class="skill-tag tag-purple">LXC</span>
@@ -191,22 +196,34 @@
           </div>
         </div>
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--yellow">
           <div class="skill-group-title" data-i18n="skills.group.database">Datenbanken</div>
           <div class="skill-tags">
-            <span class="skill-tag tag-yellow">SQLite</span>
+            <span class="skill-tag tag-yellow">PostgreSQL</span>
             <span class="skill-tag tag-yellow">MySQL</span>
+            <span class="skill-tag tag-yellow">SQLite</span>
           </div>
         </div>
 
-        <div class="skill-group">
+        <div class="skill-group skill-group--cyan">
           <div class="skill-group-title" data-i18n="skills.group.tools">Tools</div>
           <div class="skill-tags">
             <span class="skill-tag tag-cyan">Git</span>
-            <span class="skill-tag tag-cyan">Vim / Neovim</span>
-            <span class="skill-tag tag-cyan">Linux</span>
+            <span class="skill-tag tag-cyan">Neovim</span>
+            <span class="skill-tag tag-cyan">Arch Linux</span>
             <span class="skill-tag tag-cyan">SSH</span>
             <span class="skill-tag tag-cyan">CLI</span>
+          </div>
+        </div>
+
+        <div class="skill-group skill-group--orange">
+          <div class="skill-group-title" data-i18n="skills.group.ai">KI &amp; LLMs</div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-orange">Ollama</span>
+            <span class="skill-tag tag-orange">Claude API</span>
+            <span class="skill-tag tag-orange">n8n AI Nodes</span>
+            <span class="skill-tag tag-orange">Prompt Engineering</span>
+            <span class="skill-tag tag-orange">RAG</span>
           </div>
         </div>
 
@@ -339,9 +356,9 @@
     <div class="container">
       <div class="footer-inner">
         <a href="#home" class="footer-logo">
-          <img src="src/assets/img/logo-white.jpg" alt="Kay Beckmann" />
+          <div class="logo-mark logo-mark--sm">KB</div>
         </a>
-        <p class="footer-copy" data-i18n="footer.copy">© 2024 Kay Beckmann. Alle Rechte vorbehalten.</p>
+        <p class="footer-copy" data-i18n="footer.copy">© 2026 Kay Beckmann. Alle Rechte vorbehalten.</p>
         <nav class="footer-links">
           <a href="imprint.html" data-i18n="footer.imprint">Impressum</a>
           <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
