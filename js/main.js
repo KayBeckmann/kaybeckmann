@@ -320,33 +320,55 @@ function initScrollAnimations() {
 }
 
 // ---------- Contact Form ----------
+const WEBHOOK_URL = 'https://n8n.beckmann-md.de/webhook/contact-form';
+
 function initContactForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
-    const btn = form.querySelector('.form-submit');
-    const name = form.querySelector('#form-name')?.value?.trim();
-    const email = form.querySelector('#form-email')?.value?.trim();
+
+    const btn    = form.querySelector('.form-submit');
+    const name   = form.querySelector('#form-name')?.value?.trim();
+    const email  = form.querySelector('#form-email')?.value?.trim();
+    const subject = form.querySelector('#form-subject')?.value?.trim();
     const message = form.querySelector('#form-message')?.value?.trim();
 
     if (!name || !email || !message) return;
 
-    // Open mail client
-    const subject = form.querySelector('#form-subject')?.value?.trim() || 'Anfrage von ' + name;
-    const body = `Name: ${name}\n\n${message}`;
-    window.location.href = `mailto:info@beckmann-md.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const originalText = btn.textContent;
+    btn.textContent = currentLang === 'de' ? 'Wird gesendet…' : 'Sending…';
+    btn.disabled = true;
 
-    if (btn) {
-      const original = btn.textContent;
-      btn.textContent = '✓ ' + (currentLang === 'de' ? 'Gesendet!' : 'Sent!');
-      btn.disabled = true;
+    try {
+      const res = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, subject, message }),
+      });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      btn.textContent = currentLang === 'de' ? '✓ Nachricht gesendet!' : '✓ Message sent!';
+      btn.style.background = 'var(--green)';
+      form.reset();
+
       setTimeout(() => {
-        btn.textContent = original;
+        btn.textContent = originalText;
+        btn.style.background = '';
         btn.disabled = false;
-        form.reset();
-      }, 3000);
+      }, 4000);
+
+    } catch {
+      btn.textContent = currentLang === 'de' ? '✗ Fehler – bitte per E-Mail' : '✗ Error – please email directly';
+      btn.style.background = '#c0392b';
+
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '';
+        btn.disabled = false;
+      }, 5000);
     }
   });
 }
