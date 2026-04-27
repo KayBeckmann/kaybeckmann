@@ -9,42 +9,45 @@
 const translations = {
   de: {
     // Meta
-    'page.title': 'Kay Beckmann – IT-Dienstleistungen',
-    'page.description': 'Professionelle IT-Dienstleistungen: Programmierung, n8n Automation und Serververwaltung.',
+    'page.title': 'Kay Beckmann – IT-Freelancer',
+    'page.description': 'IT-Freelancer für Prozessautomatisierung, Softwareentwicklung und Serverinfrastruktur. Ich löse konkrete IT-Probleme und spare Ihnen wertvolle Zeit.',
 
     // Nav
     'nav.services': 'Leistungen',
     'nav.skills':   'Skills',
     'nav.about':    'Über mich',
     'nav.contact':  'Kontakt',
+    'nav.cta':      'Erstgespräch',
     'nav.imprint':  'Impressum',
     'nav.privacy':  'Datenschutz',
 
     // Hero
-    'hero.badge':   'IT-Dienstleistungen · Kleingewerbe',
-    'hero.title1':  'Professionelle',
-    'hero.title2':  'IT-Lösungen',
-    'hero.title3':  'für Ihr Unternehmen',
-    'hero.subtitle':'Programmierung, Workflow-Automatisierung mit n8n und zuverlässige Serververwaltung – alles aus einer Hand.',
-    'hero.cta1':    'Leistungen entdecken',
-    'hero.cta2':    'Kontakt aufnehmen',
+    'hero.badge':   'IT-Freelancer · Menzendorf',
+    'hero.title1':  'Weniger Routinearbeit.',
+    'hero.title2':  'Mehr Ergebnis.',
+    'hero.title3':  'Für Ihr Unternehmen.',
+    'hero.subtitle':'Ich automatisiere Ihre Prozesse, entwickle maßgeschneiderte Software und sorge für eine stabile IT-Infrastruktur – damit Sie sich auf das konzentrieren können, was wirklich wichtig ist.',
+    'hero.cta1':    'Kostenloses Erstgespräch',
+    'hero.cta2':    'Leistungen entdecken',
 
     // Services
     'services.tag':      'Meine Leistungen',
-    'services.title':    'Was ich anbiete',
-    'services.subtitle': 'Maßgeschneiderte IT-Lösungen für Ihr Unternehmen',
+    'services.title':    'Welche Probleme ich löse',
+    'services.subtitle': 'Konkrete IT-Lösungen für typische Herausforderungen im Unternehmensalltag',
 
-    'services.prog.title': 'Programmierarbeiten',
-    'services.prog.desc':  'Individuelle Softwarelösungen, moderne Webentwicklung und maßgeschneiderte Anwendungen – vom Konzept bis zur fertigen Umsetzung.',
-    'services.n8n.title':  'Automation mit n8n',
-    'services.n8n.desc':   'Automatisierung Ihrer Geschäftsprozesse mit n8n Workflows: API-Integrationen, Datensynchronisation und wiederkehrende Aufgaben auf Autopilot.',
-    'services.srv.title':  'Serververwaltung',
-    'services.srv.desc':   'Einrichtung, Härtung und Wartung Ihrer Server-Infrastruktur auf Linux-Basis – lokal, im Rechenzentrum oder in der Cloud.',
+    'services.prog.title': 'Software & Webentwicklung',
+    'services.prog.desc':  'Sie brauchen eine digitale Lösung, die kein Standard-Tool abdeckt? Ich entwickle genau das, was Ihr Unternehmen braucht – wartbar, skalierbar und ohne Vendor-Lock-in.',
+    'services.n8n.title':  'Prozesse automatisieren',
+    'services.n8n.desc':   'Jede Stunde, die Ihr Team mit manuellen, wiederkehrenden Aufgaben verbringt, kostet Geld. Ich automatisiere diese Prozesse – zuverlässig, günstig und ohne Ihr Team zu belasten.',
+    'services.srv.title':  'Stabile IT-Infrastruktur',
+    'services.srv.desc':   'Serverausfälle entstehen meistens, wenn niemand hinschaut. Ich richte Ihre Infrastruktur professionell ein, halte sie aktuell und informiere Sie, bevor Probleme entstehen.',
+    'services.ai.title':   'KI sinnvoll einsetzen',
+    'services.ai.desc':    'KI bietet echten Mehrwert – wenn sie richtig eingesetzt wird. Ich integriere KI-Lösungen in Ihre bestehenden Prozesse: lokal, DSGVO-konform und mit messbarem Nutzen.',
 
     // Skills
     'skills.tag':   'Tech Stack',
-    'skills.title': 'Meine Skills',
-    'skills.subtitle': 'Technologien und Werkzeuge, mit denen ich täglich arbeite',
+    'skills.title': 'Womit ich Ihre Probleme löse',
+    'skills.subtitle': 'Bewährte Technologien und Werkzeuge – ausgewählt nach dem, was für Ihr Projekt am besten passt',
     'skills.group.languages': 'Sprachen',
     'skills.group.frontend':  'Frontend',
     'skills.group.backend':   'Backend',
@@ -57,35 +60,35 @@ const translations = {
     'about.tag':   'Über mich',
     'about.title': 'Hi, ich bin',
     'about.name':  'Kay Beckmann',
-    'about.p1':    'Ich bin freiberuflicher IT-Dienstleister aus Menzendorf mit einem starken Hintergrund in Webentwicklung, Linux-Administration und Prozessautomatisierung.',
-    'about.p2':    'Als leidenschaftlicher Linux-Nutzer seit über 15 Jahren betreibe ich einen eigenen Homeserver mit LXC-Containern und VMs und habe ein tiefes Verständnis für systemnahe Themen und Open-Source-Technologien.',
-    'about.h1':    'Über 15 Jahre Linux-Erfahrung',
-    'about.h2':    'Full-Stack Webentwicklung',
-    'about.h3':    'n8n Workflow-Automatisierung',
-    'about.h4':    'Debian/Ubuntu Serverbetrieb',
+    'about.p1':    'Ich bin IT-Freelancer aus Menzendorf und helfe kleinen und mittelständischen Unternehmen dabei, mehr aus ihrer IT herauszuholen – mit weniger manuellem Aufwand und mehr Verlässlichkeit.',
+    'about.p2':    'Mit über 15 Jahren Linux-Erfahrung kenne ich sowohl die technische Tiefe als auch die praktischen Anforderungen eines Unternehmens. Ich setze auf Open-Source-Lösungen: transparent, günstig und langfristig wartbar.',
+    'about.h1':    'Konkreter Nutzen statt technisches Bla-Bla',
+    'about.h2':    'Persönlicher Ansprechpartner – kein Ticket-System',
+    'about.h3':    'Faire Preise durch schlanke Strukturen',
+    'about.h4':    'Open Source – keine versteckten Lizenzkosten',
     'about.stat1.num':   '15+',
-    'about.stat1.label': 'Jahre Linux',
-    'about.stat2.num':   '3',
-    'about.stat2.label': 'Leistungen',
+    'about.stat1.label': 'Jahre Erfahrung',
+    'about.stat2.num':   '4',
+    'about.stat2.label': 'Leistungsbereiche',
     'about.stat3.num':   '∞',
     'about.stat3.label': 'Kaffee',
-    'about.stat4.num':   '100%',
-    'about.stat4.label': 'Open Source',
+    'about.stat4.num':   '24h',
+    'about.stat4.label': 'Reaktionszeit',
 
     // Contact
     'contact.tag':      'Kontakt',
     'contact.title':    'Lass uns',
     'contact.title2':   'zusammenarbeiten',
-    'contact.subtitle': 'Interesse an einer Zusammenarbeit? Ich freue mich auf Ihre Nachricht.',
+    'contact.subtitle': 'Beschreiben Sie Ihr Problem – ich melde mich innerhalb von 24 Stunden mit einem ersten Lösungsansatz.',
     'contact.email.label':  'E-Mail',
     'contact.linkedin.label': 'LinkedIn',
-    'contact.form.title':    'Nachricht senden',
-    'contact.form.subtitle': 'Ich antworte in der Regel innerhalb von 24 Stunden.',
+    'contact.form.title':    'Kostenloses Erstgespräch anfragen',
+    'contact.form.subtitle': 'Unverbindlich und ohne Kleingedrucktes. Ich antworte innerhalb von 24 Stunden.',
     'contact.form.name':     'Ihr Name',
     'contact.form.email':    'Ihre E-Mail-Adresse',
-    'contact.form.subject':  'Betreff',
-    'contact.form.message':  'Ihre Nachricht',
-    'contact.form.submit':   'Nachricht senden',
+    'contact.form.subject':  'Worum geht es? (z.B. Automatisierung, Website, Server)',
+    'contact.form.message':  'Beschreiben Sie kurz Ihr Problem oder Ihr Vorhaben',
+    'contact.form.submit':   'Anfrage senden',
 
     // Footer
     'footer.copy':    '© 2026 Kay Beckmann. Alle Rechte vorbehalten.',
@@ -98,42 +101,45 @@ const translations = {
 
   en: {
     // Meta
-    'page.title': 'Kay Beckmann – IT Services',
-    'page.description': 'Professional IT services: Programming, n8n Automation and Server Management.',
+    'page.title': 'Kay Beckmann – IT Freelancer',
+    'page.description': 'IT freelancer for process automation, software development, and server infrastructure. I solve concrete IT problems and save you valuable time.',
 
     // Nav
     'nav.services': 'Services',
     'nav.skills':   'Skills',
     'nav.about':    'About',
     'nav.contact':  'Contact',
+    'nav.cta':      'Book a Call',
     'nav.imprint':  'Imprint',
     'nav.privacy':  'Privacy',
 
     // Hero
-    'hero.badge':   'IT Services · Small Business',
-    'hero.title1':  'Professional',
-    'hero.title2':  'IT Solutions',
-    'hero.title3':  'for Your Business',
-    'hero.subtitle':'Programming, workflow automation with n8n, and reliable server management – all from a single source.',
-    'hero.cta1':    'Explore Services',
-    'hero.cta2':    'Get in Touch',
+    'hero.badge':   'IT Freelancer · North Germany',
+    'hero.title1':  'Less Routine Work.',
+    'hero.title2':  'More Results.',
+    'hero.title3':  'For Your Business.',
+    'hero.subtitle':'I automate your processes, develop custom software, and ensure a stable IT infrastructure – so you can focus on what truly matters.',
+    'hero.cta1':    'Free Consultation',
+    'hero.cta2':    'Explore Services',
 
     // Services
     'services.tag':      'My Services',
-    'services.title':    'What I Offer',
-    'services.subtitle': 'Tailored IT solutions for your business',
+    'services.title':    'What Problems I Solve',
+    'services.subtitle': 'Concrete IT solutions for typical business challenges',
 
-    'services.prog.title': 'Programming',
-    'services.prog.desc':  'Custom software solutions, modern web development and tailored applications – from concept to finished product.',
-    'services.n8n.title':  'Automation with n8n',
-    'services.n8n.desc':   'Automating your business processes with n8n workflows: API integrations, data synchronization and recurring tasks on autopilot.',
-    'services.srv.title':  'Server Management',
-    'services.srv.desc':   'Setup, hardening and maintenance of your Linux-based server infrastructure – on-premises, in a data center or in the cloud.',
+    'services.prog.title': 'Software & Web Development',
+    'services.prog.desc':  'Need a digital solution that no standard tool covers? I build exactly what your business needs – maintainable, scalable, and without vendor lock-in.',
+    'services.n8n.title':  'Automate Your Processes',
+    'services.n8n.desc':   'Every hour your team spends on manual, repetitive tasks costs money. I automate these processes – reliably, cost-effectively, and without burdening your team.',
+    'services.srv.title':  'Stable IT Infrastructure',
+    'services.srv.desc':   'Server outages usually happen when nobody is watching. I set up your infrastructure professionally, keep it current, and notify you before problems arise.',
+    'services.ai.title':   'AI That Actually Helps',
+    'services.ai.desc':    'AI delivers real value – when applied correctly. I integrate AI solutions into your existing processes: locally hosted, GDPR-compliant, and with measurable impact.',
 
     // Skills
     'skills.tag':   'Tech Stack',
-    'skills.title': 'My Skills',
-    'skills.subtitle': 'Technologies and tools I work with every day',
+    'skills.title': 'How I Solve Your Problems',
+    'skills.subtitle': 'Proven technologies and tools – chosen for what fits your project best',
     'skills.group.languages': 'Languages',
     'skills.group.frontend':  'Frontend',
     'skills.group.backend':   'Backend',
@@ -146,35 +152,35 @@ const translations = {
     'about.tag':   'About Me',
     'about.title': 'Hi, I\'m',
     'about.name':  'Kay Beckmann',
-    'about.p1':    'I\'m a freelance IT service provider from Menzendorf with a strong background in web development, Linux administration and process automation.',
-    'about.p2':    'As a passionate Linux user for over 15 years, I run my own home server with LXC containers and VMs, and have a deep understanding of low-level topics and open-source technologies.',
-    'about.h1':    'Over 15 years of Linux experience',
-    'about.h2':    'Full-Stack web development',
-    'about.h3':    'n8n workflow automation',
-    'about.h4':    'Debian/Ubuntu server operation',
+    'about.p1':    'I\'m an IT freelancer from northern Germany, helping small and medium-sized businesses get more out of their IT – with less manual effort and more reliability.',
+    'about.p2':    'With over 15 years of Linux experience, I understand both technical depth and practical business requirements. I rely on open-source solutions: transparent, affordable, and maintainable long-term.',
+    'about.h1':    'Concrete results, not technical jargon',
+    'about.h2':    'Direct contact – no ticket system',
+    'about.h3':    'Fair pricing through lean structures',
+    'about.h4':    'Open source – no hidden licensing costs',
     'about.stat1.num':   '15+',
-    'about.stat1.label': 'Years Linux',
-    'about.stat2.num':   '3',
-    'about.stat2.label': 'Services',
+    'about.stat1.label': 'Years Experience',
+    'about.stat2.num':   '4',
+    'about.stat2.label': 'Service Areas',
     'about.stat3.num':   '∞',
     'about.stat3.label': 'Coffee',
-    'about.stat4.num':   '100%',
-    'about.stat4.label': 'Open Source',
+    'about.stat4.num':   '24h',
+    'about.stat4.label': 'Response Time',
 
     // Contact
     'contact.tag':      'Contact',
     'contact.title':    'Let\'s',
     'contact.title2':   'Work Together',
-    'contact.subtitle': 'Interested in working together? I\'d love to hear from you.',
+    'contact.subtitle': 'Describe your problem – I\'ll respond within 24 hours with an initial solution approach.',
     'contact.email.label':  'Email',
     'contact.linkedin.label': 'LinkedIn',
-    'contact.form.title':    'Send a Message',
-    'contact.form.subtitle': 'I usually respond within 24 hours.',
+    'contact.form.title':    'Request a Free Consultation',
+    'contact.form.subtitle': 'Non-binding, no fine print. I respond within 24 hours.',
     'contact.form.name':     'Your Name',
     'contact.form.email':    'Your Email Address',
-    'contact.form.subject':  'Subject',
-    'contact.form.message':  'Your Message',
-    'contact.form.submit':   'Send Message',
+    'contact.form.subject':  'What\'s it about? (e.g. automation, website, server)',
+    'contact.form.message':  'Briefly describe your problem or project',
+    'contact.form.submit':   'Send Request',
 
     // Footer
     'footer.copy':    '© 2026 Kay Beckmann. All rights reserved.',
@@ -373,6 +379,31 @@ function initContactForm() {
   });
 }
 
+// ---------- Hero Title Rotation ----------
+function initHeroRotation() {
+  const spans = document.querySelectorAll('.hero-title span');
+  if (spans.length < 2) return;
+
+  let current = 0;
+  const DISPLAY_MS    = 2800;
+  const TRANSITION_MS = 550;
+
+  spans[current].classList.add('title-active');
+
+  setInterval(() => {
+    const prev = current;
+    current = (current + 1) % spans.length;
+
+    spans[prev].classList.remove('title-active');
+    spans[prev].classList.add('title-exit');
+
+    setTimeout(() => {
+      spans[prev].classList.remove('title-exit');
+      spans[current].classList.add('title-active');
+    }, TRANSITION_MS);
+  }, DISPLAY_MS);
+}
+
 // ---------- Smooth Scroll for Anchor Links ----------
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -395,4 +426,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollAnimations();
   initContactForm();
   initSmoothScroll();
+  initHeroRotation();
 });

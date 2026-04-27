@@ -240,6 +240,26 @@ section { padding: 100px 0; }
   gap: 12px;
 }
 
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.nav-cta:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px var(--accent-glow);
+  color: #fff;
+}
+
 .lang-switcher {
   background: var(--bg-card);
   border: 1.5px solid var(--border);
@@ -357,9 +377,7 @@ section { padding: 100px 0; }
 }
 
 .hero-title {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  display: grid;
   font-size: clamp(2.4rem, 6vw, 5rem);
   font-weight: 900;
   line-height: 1.1;
@@ -369,9 +387,27 @@ section { padding: 100px 0; }
   animation: fadeInUp 0.6s 0.1s ease both;
 }
 
+.hero-title span {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  pointer-events: none;
+}
+
+.hero-title span.title-active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hero-title span.title-exit {
+  opacity: 0;
+  transform: translateY(-14px);
+}
+
 .hero-title-accent {
   color: var(--accent);
-  position: relative;
 }
 
 .hero-subtitle {
@@ -485,6 +521,12 @@ section { padding: 100px 0; }
   background: var(--green-glow);
   border-color: var(--green);
   color: var(--green);
+}
+
+.service-icon.orange {
+  background: rgba(216, 120, 48, 0.15);
+  border-color: #d87830;
+  color: #d87830;
 }
 
 .service-card h3 {
@@ -1028,6 +1070,7 @@ section { padding: 100px 0; }
 
   .nav-hamburger { display: flex; }
   .nav-actions { order: -1; }
+  .nav-cta { display: none; }
 
   .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
 
