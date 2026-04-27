@@ -189,6 +189,98 @@ const translations = {
 
     // Legal pages
     'legal.back': '← Back to Homepage',
+  },
+
+  sv: {
+    // Meta
+    'page.title': 'Kay Beckmann – IT-Frilansare',
+    'page.description': 'IT-frilansare för processautomatisering, mjukvaruutveckling och serverinfrastruktur. Jag löser konkreta IT-problem och sparar din värdefulla tid.',
+
+    // Nav
+    'nav.services': 'Tjänster',
+    'nav.skills':   'Kompetenser',
+    'nav.about':    'Om mig',
+    'nav.contact':  'Kontakt',
+    'nav.cta':      'Boka samtal',
+    'nav.imprint':  'Impressum',
+    'nav.privacy':  'Integritet',
+
+    // Hero
+    'hero.badge':   'IT-frilansare · Norra Tyskland',
+    'hero.title1':  'Mindre rutinarbete.',
+    'hero.title2':  'Mer resultat.',
+    'hero.title3':  'För ditt företag.',
+    'hero.subtitle':'Jag automatiserar dina processer, utvecklar skräddarsydd mjukvara och säkerställer en stabil IT-infrastruktur – så att du kan fokusera på det som verkligen spelar roll.',
+    'hero.cta1':    'Kostnadsfri konsultation',
+    'hero.cta2':    'Utforska tjänster',
+
+    // Services
+    'services.tag':      'Mina tjänster',
+    'services.title':    'Vilka problem jag löser',
+    'services.subtitle': 'Konkreta IT-lösningar för typiska affärsutmaningar',
+
+    'services.prog.title': 'Mjukvara & webbutveckling',
+    'services.prog.desc':  'Behöver du en digital lösning som inget standardverktyg täcker? Jag bygger exakt det ditt företag behöver – underhållbart, skalbart och utan leverantörsberoende.',
+    'services.n8n.title':  'Automatisera processer',
+    'services.n8n.desc':   'Varje timme ditt team spenderar på manuella, repetitiva uppgifter kostar pengar. Jag automatiserar dessa processer – pålitligt, kostnadseffektivt och utan att belasta ditt team.',
+    'services.srv.title':  'Stabil IT-infrastruktur',
+    'services.srv.desc':   'Serveravbrott sker oftast när ingen bevakar. Jag konfigurerar din infrastruktur professionellt, håller den uppdaterad och meddelar dig innan problem uppstår.',
+    'services.ai.title':   'AI som faktiskt hjälper',
+    'services.ai.desc':    'AI ger verkligt värde – när det används rätt. Jag integrerar AI-lösningar i dina befintliga processer: lokalt, GDPR-kompatibelt och med mätbar effekt.',
+
+    // Skills
+    'skills.tag':      'Tech Stack',
+    'skills.title':    'Hur jag löser dina problem',
+    'skills.subtitle': 'Beprövade teknologier och verktyg – valda för vad som passar ditt projekt bäst',
+    'skills.group.languages': 'Språk',
+    'skills.group.frontend':  'Frontend',
+    'skills.group.backend':   'Backend',
+    'skills.group.devops':    'DevOps & Automation',
+    'skills.group.database':  'Databaser',
+    'skills.group.tools':     'Verktyg',
+    'skills.group.ai':        'AI & LLMs',
+
+    // About
+    'about.tag':   'Om mig',
+    'about.title': 'Hej, jag är',
+    'about.name':  'Kay Beckmann',
+    'about.p1':    'Jag är IT-frilansare från norra Tyskland och hjälper små och medelstora företag att få mer ut av sin IT – med mindre manuellt arbete och mer tillförlitlighet.',
+    'about.p2':    'Med över 15 års Linux-erfarenhet förstår jag både tekniskt djup och praktiska affärskrav. Jag förlitar mig på öppen källkod: transparent, prisvärt och underhållbart på lång sikt.',
+    'about.h1':    'Konkreta resultat, inte tekniskt fackspråk',
+    'about.h2':    'Direktkontakt – inget ärendesystem',
+    'about.h3':    'Rättvisa priser genom smidiga strukturer',
+    'about.h4':    'Öppen källkod – inga dolda licenskostnader',
+    'about.stat1.num':   '15+',
+    'about.stat1.label': 'Års erfarenhet',
+    'about.stat2.num':   '4',
+    'about.stat2.label': 'Tjänsteområden',
+    'about.stat3.num':   '∞',
+    'about.stat3.label': 'Kaffe',
+    'about.stat4.num':   '24h',
+    'about.stat4.label': 'Svarstid',
+
+    // Contact
+    'contact.tag':      'Kontakt',
+    'contact.title':    'Låt oss',
+    'contact.title2':   'samarbeta',
+    'contact.subtitle': 'Beskriv ditt problem – jag svarar inom 24 timmar med ett första lösningsförslag.',
+    'contact.email.label':    'E-post',
+    'contact.linkedin.label': 'LinkedIn',
+    'contact.form.title':    'Boka kostnadsfri konsultation',
+    'contact.form.subtitle': 'Utan förpliktelser och utan finstilt. Jag svarar inom 24 timmar.',
+    'contact.form.name':     'Ditt namn',
+    'contact.form.email':    'Din e-postadress',
+    'contact.form.subject':  'Vad gäller det? (t.ex. automatisering, webbplats, server)',
+    'contact.form.message':  'Beskriv kort ditt problem eller projekt',
+    'contact.form.submit':   'Skicka förfrågan',
+
+    // Footer
+    'footer.copy':    '© 2026 Kay Beckmann. Alla rättigheter förbehållna.',
+    'footer.imprint': 'Impressum',
+    'footer.privacy': 'Integritetspolicy',
+
+    // Legal pages
+    'legal.back': '← Tillbaka till startsidan',
   }
 };
 
@@ -225,9 +317,10 @@ function applyTranslations() {
   const titleKey = t('page.title');
   if (titleKey) document.title = titleKey;
 
-  // Update lang button
-  const langBtn = document.getElementById('lang-current');
-  if (langBtn) langBtn.textContent = currentLang === 'de' ? 'EN' : 'DE';
+  // Update active lang button
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
 }
 
 function setLanguage(lang) {
@@ -245,7 +338,6 @@ function initNav() {
   const nav = document.getElementById('nav');
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-links');
-  const langBtn = document.getElementById('lang-btn');
 
   if (!nav) return;
 
@@ -275,9 +367,9 @@ function initNav() {
   }
 
   // Language switcher
-  if (langBtn) {
-    langBtn.addEventListener('click', toggleLanguage);
-  }
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+  });
 }
 
 function updateActiveNavLink() {
