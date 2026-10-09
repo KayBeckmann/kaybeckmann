@@ -14,6 +14,7 @@ const translations = {
 
     // Nav
     'nav.services': 'Leistungen',
+    'nav.waas':     'Website im Abo',
     'nav.skills':   'Skills',
     'nav.about':    'Über mich',
     'nav.contact':  'Kontakt',
@@ -43,6 +44,19 @@ const translations = {
     'services.srv.desc':   'Serverausfälle entstehen meistens, wenn niemand hinschaut. Ich richte Ihre Infrastruktur professionell ein, halte sie aktuell und informiere Sie, bevor Probleme entstehen.',
     'services.ai.title':   'KI sinnvoll einsetzen',
     'services.ai.desc':    'KI bietet echten Mehrwert – wenn sie richtig eingesetzt wird. Ich integriere KI-Lösungen in Ihre bestehenden Prozesse: lokal, DSGVO-konform und mit messbarem Nutzen.',
+
+    // Website as a Service
+    'waas.tag':        'Website as a Service',
+    'waas.title':      'Ihre Webseite im betreuten Abo',
+    'waas.subtitle':   'Ein eigener Webauftritt für Ihren Betrieb – individuell erstellt, von mir technisch betreut und monatlich abgerechnet.',
+    'waas.build.title':'Für Ihren Betrieb erstellt',
+    'waas.build.desc': 'Wir besprechen Inhalte und Gestaltung. Ich erstelle Ihre mobil nutzbare Webseite auf Basis Ihrer freigegebenen Texte und Bilder; vor der Veröffentlichung sehen Sie eine Vorschau.',
+    'waas.host.title': 'Hosting gemanagt',
+    'waas.host.desc':  'Ich übernehme Hosting, Betrieb und technische Pflege der Webseite. Domain, Sicherungen und Betreuungsumfang klären wir passend zu Ihrem Projekt im Angebot.',
+    'waas.care.title': 'Änderungen statt Stillstand',
+    'waas.care.desc':  'Neue Öffnungszeiten, Leistungen oder Bilder? Kleinere Inhaltsänderungen übernehme ich im vereinbarten Umfang. Größere Erweiterungen besprechen wir vorher und bieten sie separat an.',
+    'waas.details':    'Monatlicher Preis, Laufzeit, Domain und genaue Leistungen werden individuell vereinbart. Rechtstexte und Pflichtangaben stellen Sie nach fachlicher Prüfung bereit; Rechtsberatung ist nicht Bestandteil der technischen Betreuung.',
+    'waas.cta':        'Webseite im Abo anfragen',
 
     // Skills
     'skills.tag':   'Tech Stack',
@@ -106,6 +120,7 @@ const translations = {
 
     // Nav
     'nav.services': 'Services',
+    'nav.waas':     'Website Subscription',
     'nav.skills':   'Skills',
     'nav.about':    'About',
     'nav.contact':  'Contact',
@@ -135,6 +150,19 @@ const translations = {
     'services.srv.desc':   'Server outages usually happen when nobody is watching. I set up your infrastructure professionally, keep it current, and notify you before problems arise.',
     'services.ai.title':   'AI That Actually Helps',
     'services.ai.desc':    'AI delivers real value – when applied correctly. I integrate AI solutions into your existing processes: locally hosted, GDPR-compliant, and with measurable impact.',
+
+    // Website as a Service
+    'waas.tag':        'Website as a Service',
+    'waas.title':      'Your website on a managed subscription',
+    'waas.subtitle':   'A website for your business – built for you, technically managed by me and billed monthly.',
+    'waas.build.title':'Built for your business',
+    'waas.build.desc': 'We discuss content and design. I build a mobile-friendly website using your approved text and images; you can review a preview before it goes live.',
+    'waas.host.title': 'Managed hosting',
+    'waas.host.desc':  'I handle hosting, operation and technical upkeep. We agree on the domain, backups and scope of support in a proposal tailored to your project.',
+    'waas.care.title': 'Keep your content current',
+    'waas.care.desc':  'Changed opening hours, services or images? I handle small content updates within the agreed scope. We discuss larger extensions in advance and quote them separately.',
+    'waas.details':    'Monthly price, term, domain and exact services are agreed individually. You provide legally reviewed notices and required business details; legal advice is not part of technical support.',
+    'waas.cta':        'Ask about a website subscription',
 
     // Skills
     'skills.tag':   'Tech Stack',
@@ -198,6 +226,7 @@ const translations = {
 
     // Nav
     'nav.services': 'Tjänster',
+    'nav.waas':     'Webbplats som abonnemang',
     'nav.skills':   'Kompetenser',
     'nav.about':    'Om mig',
     'nav.contact':  'Kontakt',
@@ -227,6 +256,19 @@ const translations = {
     'services.srv.desc':   'Serveravbrott sker oftast när ingen bevakar. Jag konfigurerar din infrastruktur professionellt, håller den uppdaterad och meddelar dig innan problem uppstår.',
     'services.ai.title':   'AI som faktiskt hjälper',
     'services.ai.desc':    'AI ger verkligt värde – när det används rätt. Jag integrerar AI-lösningar i dina befintliga processer: lokalt, GDPR-kompatibelt och med mätbar effekt.',
+
+    // Website as a Service
+    'waas.tag':        'Website as a Service',
+    'waas.title':      'Din webbplats med löpande abonnemang',
+    'waas.subtitle':   'En webbplats för ditt företag – byggd efter dina behov, tekniskt skött av mig och fakturerad månadsvis.',
+    'waas.build.title':'Byggd för ditt företag',
+    'waas.build.desc': 'Vi går igenom innehåll och utformning. Jag bygger en mobilanpassad webbplats med dina godkända texter och bilder; du får se en förhandsvisning innan publicering.',
+    'waas.host.title': 'Hanterad drift',
+    'waas.host.desc':  'Jag sköter webbhotell, drift och tekniskt underhåll. Domän, säkerhetskopior och omfattningen av supporten bestämmer vi i ett anpassat erbjudande.',
+    'waas.care.title': 'Aktuellt innehåll',
+    'waas.care.desc':  'Nya öppettider, tjänster eller bilder? Jag tar hand om mindre innehållsändringar inom avtalad omfattning. Större utökningar diskuterar och offererar vi separat i förväg.',
+    'waas.details':    'Månadspris, avtalstid, domän och exakta tjänster avtalas individuellt. Du tillhandahåller juridiskt granskade texter och obligatoriska företagsuppgifter; juridisk rådgivning ingår inte i den tekniska skötseln.',
+    'waas.cta':        'Fråga om webbplatsabonnemang',
 
     // Skills
     'skills.tag':      'Tech Stack',

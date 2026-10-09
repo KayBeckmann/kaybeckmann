@@ -579,6 +579,59 @@ section { padding: 100px 0; }
   letter-spacing: 0.03em;
 }
 
+/* ---------- Website as a Service ---------- */
+.waas {
+  background: var(--bg-primary);
+  scroll-margin-top: var(--nav-height);
+}
+
+.waas .section-header p { max-width: 680px; }
+
+.waas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.waas-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border-top: 3px solid var(--accent);
+}
+
+.waas-card:nth-child(2) { border-top-color: var(--blue); }
+.waas-card:nth-child(3) { border-top-color: var(--green); }
+
+.waas-number {
+  display: block;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-bottom: 18px;
+}
+.waas-card:nth-child(2) .waas-number { color: var(--blue); }
+.waas-card:nth-child(3) .waas-number { color: var(--green); }
+
+.waas-card h3 { font-size: 1.2rem; margin-bottom: 12px; }
+.waas-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.75; }
+
+.waas-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.waas-bottom p { color: var(--text-secondary); font-size: 0.85rem; line-height: 1.7; max-width: 750px; }
+.waas-bottom .btn { flex-shrink: 0; }
+
 /* ---------- Skills Section ---------- */
 .skills { background: var(--bg-primary); }
 
@@ -1057,14 +1110,14 @@ section { padding: 100px 0; }
 
 /* ---------- Mobile / Responsive ---------- */
 @media (max-width: 900px) {
+  .waas-grid { grid-template-columns: 1fr; }
+  .waas-bottom { flex-direction: column; align-items: flex-start; }
   .about-inner,
   .contact-inner { grid-template-columns: 1fr; gap: 40px; }
   .about-stats { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media (max-width: 768px) {
-  section { padding: 72px 0; }
-
+@media (max-width: 1199px) {
   .nav-links {
     display: none;
     position: fixed;
@@ -1090,6 +1143,10 @@ section { padding: 100px 0; }
   .nav-hamburger { display: flex; }
   .nav-actions { order: -1; }
   .nav-cta { display: none; }
+}
+
+@media (max-width: 768px) {
+  section { padding: 72px 0; }
 
   .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
 
@@ -1104,6 +1161,9 @@ section { padding: 100px 0; }
 }
 
 @media (max-width: 480px) {
+  .waas-card { padding: 26px 24px; }
+  .waas-bottom { padding: 24px; }
+  .waas-bottom .btn { white-space: normal; }
   .skills-grid { grid-template-columns: 1fr; }
   .hero-cta { flex-direction: column; align-items: center; }
   .about-stats { grid-template-columns: 1fr 1fr; }
