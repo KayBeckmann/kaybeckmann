@@ -55,7 +55,7 @@ const translations = {
     'waas.host.desc':  'Ich übernehme Hosting, Betrieb und technische Pflege der Webseite. Domain, Sicherungen und Betreuungsumfang klären wir passend zu Ihrem Projekt im Angebot.',
     'waas.care.title': 'Änderungen statt Stillstand',
     'waas.care.desc':  'Neue Öffnungszeiten, Leistungen oder Bilder? Kleinere Inhaltsänderungen übernehme ich im vereinbarten Umfang. Größere Erweiterungen besprechen wir vorher und bieten sie separat an.',
-    'waas.details':    'Monatlicher Preis, Laufzeit, Domain und genaue Leistungen werden individuell vereinbart. Rechtstexte und Pflichtangaben stellen Sie nach fachlicher Prüfung bereit; Rechtsberatung ist nicht Bestandteil der technischen Betreuung.',
+    'waas.details':    'Monatlicher Preis, Laufzeit, Domain und genaue Leistungen werden individuell vereinbart. Rechtsberatung ist nicht Bestandteil der technischen Betreuung.',
     'waas.cta':        'Webseite im Abo anfragen',
 
     // Skills
@@ -161,7 +161,7 @@ const translations = {
     'waas.host.desc':  'I handle hosting, operation and technical upkeep. We agree on the domain, backups and scope of support in a proposal tailored to your project.',
     'waas.care.title': 'Keep your content current',
     'waas.care.desc':  'Changed opening hours, services or images? I handle small content updates within the agreed scope. We discuss larger extensions in advance and quote them separately.',
-    'waas.details':    'Monthly price, term, domain and exact services are agreed individually. You provide legally reviewed notices and required business details; legal advice is not part of technical support.',
+    'waas.details':    'Monthly price, term, domain and exact services are agreed individually. legal advice is not part of technical support.',
     'waas.cta':        'Ask about a website subscription',
 
     // Skills
@@ -267,7 +267,7 @@ const translations = {
     'waas.host.desc':  'Jag sköter webbhotell, drift och tekniskt underhåll. Domän, säkerhetskopior och omfattningen av supporten bestämmer vi i ett anpassat erbjudande.',
     'waas.care.title': 'Aktuellt innehåll',
     'waas.care.desc':  'Nya öppettider, tjänster eller bilder? Jag tar hand om mindre innehållsändringar inom avtalad omfattning. Större utökningar diskuterar och offererar vi separat i förväg.',
-    'waas.details':    'Månadspris, avtalstid, domän och exakta tjänster avtalas individuellt. Du tillhandahåller juridiskt granskade texter och obligatoriska företagsuppgifter; juridisk rådgivning ingår inte i den tekniska skötseln.',
+    'waas.details':    'Månadspris, avtalstid, domän och exakta tjänster avtalas individuellt. Juridisk rådgivning ingår inte i den tekniska skötseln.',
     'waas.cta':        'Fråga om webbplatsabonnemang',
 
     // Skills
