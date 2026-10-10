@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body data-title-key="legal.imprint.pageTitle">
 
   <nav class="nav scrolled" id="nav">
     <div class="nav-container">
@@ -20,15 +20,18 @@
         <span class="logo-name">Kay Beckmann</span>
       </a>
       <div class="nav-links" id="nav-links">
+        <a href="index.html#waas" data-i18n="nav.waas">Website im Abo</a>
         <a href="index.html#services" data-i18n="nav.services">Leistungen</a>
-        <a href="index.html#skills"   data-i18n="nav.skills">Skills</a>
-        <a href="index.html#about"    data-i18n="nav.about">Über mich</a>
-        <a href="index.html#contact"  data-i18n="nav.contact">Kontakt</a>
+        <a href="index.html#skills" data-i18n="nav.skills">Skills</a>
+        <a href="index.html#about" data-i18n="nav.about">Über mich</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Kontakt</a>
       </div>
       <div class="nav-actions">
-        <button class="lang-switcher" id="lang-btn" aria-label="Sprache wechseln">
-          <span id="lang-current">EN</span>
-        </button>
+        <div class="lang-switcher" id="lang-switcher" aria-label="Sprache wählen">
+          <button class="lang-btn active" data-lang="de" aria-label="Deutsch">🇩🇪 <span>DE</span></button>
+          <button class="lang-btn" data-lang="en" aria-label="English">🇬🇧 <span>EN</span></button>
+          <button class="lang-btn" data-lang="sv" aria-label="Svenska">🇸🇪 <span>SV</span></button>
+        </div>
       </div>
       <button class="nav-hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -39,32 +42,32 @@
   <main class="legal-page">
     <div class="container">
       <a href="index.html" class="legal-breadcrumb" data-i18n="legal.back">← Zurück zur Startseite</a>
-      <h1>Impressum</h1>
+      <h1 data-i18n="legal.imprint.title">Impressum</h1>
 
       <div class="legal-content">
-        <p>Angaben gemäß § 5 TMG</p>
+        <p data-i18n="legal.imprint.basis">Angaben gemäß § 5 TMG</p>
 
-        <h2>Kontakt</h2>
+        <h2 data-i18n="legal.imprint.contact">Kontakt</h2>
         <p>
           Kay Beckmann<br />
           Hauptstraße 28<br />
           23923 Menzendorf
         </p>
         <p>
-          <strong>Telefon:</strong> 01637-164850<br />
-          <strong>E-Mail:</strong> <a href="mailto:contact@kay-beckmann.com">contact@kay-beckmann.com</a>
+          <strong data-i18n="legal.imprint.phone">Telefon:</strong> 01637-164850<br />
+          <strong data-i18n="legal.imprint.email">E-Mail:</strong> <a href="mailto:contact@kay-beckmann.com">contact@kay-beckmann.com</a>
         </p>
 
-        <h2>Vertreten durch</h2>
+        <h2 data-i18n="legal.imprint.represented">Vertreten durch</h2>
         <p>Kay Beckmann</p>
 
-        <h2>Umsatzsteuer-ID</h2>
-        <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: –</p>
+        <h2 data-i18n="legal.imprint.vatTitle">Umsatzsteuer-ID</h2>
+        <p data-i18n="legal.imprint.vat">Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: –</p>
 
-        <h2>Haftungsausschluss</h2>
+        <h2 data-i18n="legal.imprint.disclaimer">Haftungsausschluss</h2>
 
-        <h3>Haftung für Inhalte</h3>
-        <p>
+        <h3 data-i18n="legal.imprint.contentTitle">Haftung für Inhalte</h3>
+        <p data-i18n="legal.imprint.content">
           Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit
           und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir
           gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
@@ -73,15 +76,15 @@
           rechtswidrige Tätigkeit hinweisen.
         </p>
 
-        <h3>Haftung für Links</h3>
-        <p>
+        <h3 data-i18n="legal.imprint.linksTitle">Haftung für Links</h3>
+        <p data-i18n="legal.imprint.links">
           Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
           Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
           verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
         </p>
 
-        <h3>Urheberrecht</h3>
-        <p>
+        <h3 data-i18n="legal.imprint.copyrightTitle">Urheberrecht</h3>
+        <p data-i18n="legal.imprint.copyright">
           Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
           Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
           Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
@@ -89,8 +92,10 @@
 
         <hr />
         <p>
-          Impressum vom <a href="https://www.impressum-generator.de" target="_blank" rel="noopener">Impressum Generator</a>
-          der <a href="https://www.kanzlei-hasselbach.de/" target="_blank" rel="noopener">Kanzlei Hasselbach</a>.
+          <span data-i18n="legal.imprint.creditBefore">Impressum vom</span>
+          <a href="https://www.impressum-generator.de" target="_blank" rel="noopener">Impressum Generator</a>
+          <span data-i18n="legal.imprint.creditBetween">der</span>
+          <a href="https://www.kanzlei-hasselbach.de/" target="_blank" rel="noopener">Kanzlei Hasselbach</a>.
         </p>
       </div>
     </div>
@@ -104,13 +109,14 @@
         </a>
         <p class="footer-copy" data-i18n="footer.copy">© 2024 Kay Beckmann. Alle Rechte vorbehalten.</p>
         <nav class="footer-links">
-          <a href="imprint.html"     data-i18n="footer.imprint">Impressum</a>
+          <a href="imprint.html" data-i18n="footer.imprint">Impressum</a>
           <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
         </nav>
       </div>
     </div>
   </footer>
 
+  <script src="js/legal-translations.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

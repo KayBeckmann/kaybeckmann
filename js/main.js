@@ -326,6 +326,13 @@ const translations = {
   }
 };
 
+// Legal-page translations are loaded only on the legal pages.
+if (typeof legalTranslations !== 'undefined') {
+  for (const lang of Object.keys(translations)) {
+    Object.assign(translations[lang], legalTranslations[lang]);
+  }
+}
+
 // ---------- i18n Core ----------
 let currentLang = localStorage.getItem('lang') || 'de';
 
@@ -356,7 +363,7 @@ function applyTranslations() {
   document.documentElement.lang = currentLang;
 
   // Update page title
-  const titleKey = t('page.title');
+  const titleKey = t(document.body.dataset.titleKey || 'page.title');
   if (titleKey) document.title = titleKey;
 
   // Update active lang button
